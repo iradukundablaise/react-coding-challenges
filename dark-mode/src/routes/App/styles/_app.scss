@@ -28,3 +28,33 @@
     width: 100px;
   }
 }
+
+html.dark-mode{
+  background-color: #121212;
+  color: #FFFFFF;
+
+  h1.title{
+    color: #BA86FC
+  }
+
+  input[type=text]{
+    background-color: #414141;
+    color: #FFFFFF
+  }
+
+  ::placeholder{
+    color: #FFFFFF;
+  }
+
+  .app__dark-mode-btn{
+    color: #FFA500;
+  }
+
+  a.button.is-primary{
+    background-color: #BA86FC;
+  }
+
+  a.button.is-link{
+    background-color: #02DAC6;
+  }
+}
